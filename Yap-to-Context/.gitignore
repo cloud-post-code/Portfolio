@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+.env
+.env.local
+.env*.local
+data/*.db
+data/*.db-journal
+data/*.db-shm
+data/*.db-wal
+storage/audio/*
+!storage/audio/.gitkeep
+npm-debug.log*
+tsconfig.tsbuildinfo
