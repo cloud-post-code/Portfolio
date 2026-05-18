@@ -1,5 +1,15 @@
-habits.db
+.env
+.env.*
+!.env.example
+.venv/
+venv/
 __pycache__/
 *.pyc
-.venv/
-.env
+.DS_Store
+
+# Local SQLite data
+habits.db
+habits.db-*
+*.db
+*.sqlite
+*.sqlite3

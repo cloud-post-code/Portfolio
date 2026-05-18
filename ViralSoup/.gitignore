@@ -1,6 +1,11 @@
+.env
+.env.*
+!.env.example
 .venv/
 venv/
 __pycache__/
 *.pyc
-.env
 .DS_Store
+
+# Default meme output (repo root unless VIRALSOUP_OUTPUT_DIR is set)
+../Generated Memes/

@@ -1,4 +1,13 @@
 .env
+.env.*
+!.env.example
+.venv/
+venv/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Crawl / profile output
+nsa_profiles.csv
+company_intel.csv
+*.csv

@@ -1,1 +1,14 @@
 .DS_Store
+
+# Secrets (any project)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Default app output folders (repo root only)
+/Generated Posts/
+/Generated Memes/

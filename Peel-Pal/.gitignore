@@ -1,6 +1,16 @@
 .env
+.env.*
+!.env.example
 .venv/
+venv/
 __pycache__/
 *.pyc
 .DS_Store
 
+# Generated / saved outputs (keep folders via .gitkeep)
+Design Assets/Stock Images/*
+!Design Assets/Stock Images/.gitkeep
+Design Assets/generated_images/*
+!Design Assets/generated_images/.gitkeep
+Design Assets/Generated Posts/*
+!Design Assets/Generated Posts/.gitkeep

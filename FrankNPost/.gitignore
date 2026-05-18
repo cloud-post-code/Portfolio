@@ -1,4 +1,11 @@
 .env
+.env.*
+!.env.example
 .venv/
+venv/
 __pycache__/
 *.pyc
+.DS_Store
+
+# Default output (repo root unless FRANKNPOST_OUTPUT_DIR is set)
+../Generated Posts/
