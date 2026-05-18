@@ -1,5 +1,9 @@
 # FrankNPost
 
+Streamlit app that **generates social and blog content** from your brand theme, persona, and source material — one OpenAI call per channel.
+
+## What it does
+
 Streamlit post generator for:
 - Blog posts (GEO + SEO prompt mode)
 - LinkedIn posts

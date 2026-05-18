@@ -1,6 +1,10 @@
-# Daily Habit Tracker
+# HabitTracker
 
-Local Flask + SQLite habit tracker: check off habits by day, log wake/bed/hours, streaks, and confetti when today is fully complete.
+Local Flask + SQLite app to **track daily habits**, sleep times, and streaks — with a simple web UI and confetti when you complete every habit for the day.
+
+## What it does
+
+Check off habits by day, log wake/bed hours, view streaks, and celebrate when today is fully complete. All data stays in a local `habits.db` file (gitignored).
 
 ## Setup
 

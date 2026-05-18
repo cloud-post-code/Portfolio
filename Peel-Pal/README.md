@@ -1,6 +1,10 @@
-# Brand-Aligned Image Generator
+# Peel-Pal
 
-Mini localhost app that ingests your brand theme + prompt, generates images with Gemini, and saves outputs to a local folder.
+Streamlit **brand-aligned image studio** — combine a structured brand theme with a build prompt, generate images via Gemini, and browse saved outputs locally.
+
+## What it does
+
+Mini localhost app that ingests your brand theme + prompt, generates images with Gemini, and saves outputs to a local folder. Supports single prompts and bulk CSV queues.
 
 ## Features
 
