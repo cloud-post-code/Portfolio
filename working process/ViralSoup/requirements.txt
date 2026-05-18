@@ -1,5 +1,0 @@
-streamlit
-openai
-google-genai
-python-dotenv
-Pillow

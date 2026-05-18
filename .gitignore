@@ -12,4 +12,6 @@ secrets.json
 # Default app output folders
 /Generated Posts/
 /Generated Memes/
-working process/Generated Memes/
+
+# Local-only experiments (not published to GitHub)
+working process/
