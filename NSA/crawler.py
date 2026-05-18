@@ -11,7 +11,7 @@ from models import CrawledPage, CrawlResult
 _TIMEOUT = 10
 _MAX_PAGES = 12
 _USER_AGENT = (
-    "Mozilla/5.0 (compatible; NodeSiteAgent/1.0; +https://github.com/local)"
+    "Mozilla/5.0 (compatible; NotASiteScrapper/1.0; +https://github.com/local)"
 )
 _PRIORITY_PATH_FRAGMENTS = (
     "about", "team", "company", "services", "products", "solutions",

@@ -18,14 +18,21 @@ I treat this repo as a **personal dashboard of frontends**: spin up what I need,
 
 | Folder | What it does | Stack |
 |--------|----------------|-------|
-| [**NSA**](NSA/) | **Node Site Agent** — crawl sites in batch, profile companies, stream results to CSV | Streamlit, OpenAI |
+| [**NSA**](NSA/) | **Not a Site Scrapper** — crawl sites in batch, profile companies, stream results to CSV | Streamlit, OpenAI |
 | [**DoctorMD**](DoctorMD/) | Convert documents (PDF, Word, HTML, etc.) to Markdown in the browser | Flask |
 | [**FrankNPost**](FrankNPost/) | Generate blog, LinkedIn, Facebook, and Instagram posts from themes and uploads | Streamlit, OpenAI |
-| [**ViralSoup**](ViralSoup/) | Brand-aligned meme captions + image generation | Streamlit, OpenAI, Gemini |
 | [**Peel-Pal**](Peel-Pal/) | Brand-themed image generation studio with local gallery | Streamlit, Gemini |
 | [**HabitTracker**](HabitTracker/) | Daily habit check-ins, streaks, sleep logging | Flask, SQLite |
 | [**Yap-to-Context**](Yap-to-Context/) | Voice/transcript ingest → organized folder tree and documents | Next.js, Postgres |
-| [**Agent System**](Agent%20System/) | Prompt templates for shop-building agents (not a runnable app) | Markdown |
+
+### Working process
+
+Workflow experiments and agent prompts (content / meme pipelines):
+
+| Folder | What it does | Stack |
+|--------|----------------|-------|
+| [**ViralSoup**](working%20process/ViralSoup/) | Brand-aligned meme captions + image generation | Streamlit, OpenAI, Gemini |
+| [**Agent System**](working%20process/Agent%20System/) | Prompt templates for shop-building agents (not a runnable app) | Markdown |
 
 Each runnable project has its own `README.md`, `requirements.txt` or `package.json`, and often a `.env.example`. Start there for setup details.
 

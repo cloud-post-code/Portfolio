@@ -9,6 +9,7 @@
 credentials.json
 secrets.json
 
-# Default app output folders (repo root only)
+# Default app output folders
 /Generated Posts/
 /Generated Memes/
+working process/Generated Memes/

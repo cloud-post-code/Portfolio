@@ -182,7 +182,7 @@ def _run_batch_sequential(
 
 # ── Page config ────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="NSA (Node Site Agent)",
+    page_title="NSA (Not a Site Scrapper)",
     page_icon="🌐",
     layout="wide",
 )
@@ -257,7 +257,7 @@ with st.sidebar:
     )
 
 # ── Main ───────────────────────────────────────────────────────────────────────
-st.title("🌐 NSA (Node Site Agent)")
+st.title("🌐 NSA (Not a Site Scrapper)")
 st.caption(
     "Paste all URLs, then start. Every URL is ingested into a queue first, then processed "
     "sequentially without stopping until the queue is empty. CSV updates after each site."

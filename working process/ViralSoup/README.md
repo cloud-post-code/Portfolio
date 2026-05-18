@@ -8,12 +8,12 @@ Local Streamlit app for **brand-voice-aligned, audience-targeted memes**: OpenAI
 - **Step 2:** Pick one option → OpenAI produces viral analysis + detailed image prompt → Gemini generates the PNG.
 - **12 virality sliders** (1–10): humor, emotional intensity, simplicity, cultural relevance, remixability, identity signaling, platform fit, novelty/familiarity, participation, memetic compression, edge/risk, repetition familiarity.
 - **Brand theme + persona** (same shape as FrankNPost) via sidebar and dedicated pages.
-- Saves **PNG + JSON** metadata under `Generated Memes/` (repo root by default).
+- Saves **PNG + JSON** metadata under `working process/Generated Memes/` by default.
 
 ## Setup
 
 ```bash
-cd ViralSoup
+cd "working process/ViralSoup"
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
