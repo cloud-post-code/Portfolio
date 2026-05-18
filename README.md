@@ -18,7 +18,7 @@ I treat this repo as a **personal dashboard of frontends**: spin up what I need,
 
 | Folder | What it does | Stack |
 |--------|----------------|-------|
-| [**NSA**](NSA/) | **Not a Site Scrapper** — crawl sites in batch, profile companies, stream results to CSV | Streamlit, OpenAI |
+| [**NSA (Not a Site Scrapper)**](NSA%20(Not%20a%20Site%20Scrapper)/) | Crawl sites in batch, profile companies, stream results to CSV | Streamlit, OpenAI |
 | [**DoctorMD**](DoctorMD/) | Convert documents (PDF, Word, HTML, etc.) to Markdown in the browser | Flask |
 | [**FrankNPost**](FrankNPost/) | Generate blog, LinkedIn, Facebook, and Instagram posts from themes and uploads | Streamlit, OpenAI |
 | [**Peel-Pal**](Peel-Pal/) | Brand-themed image generation studio with local gallery | Streamlit, Gemini |
