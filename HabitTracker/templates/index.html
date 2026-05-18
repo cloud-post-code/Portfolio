@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Daily Habit Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"
+    ></script>
+    <script defer src="{{ url_for('static', filename='app.js') }}"></script>
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="header__title">
+          <h1>Habit Tracker</h1>
+          <p class="header__date" id="header-date" aria-live="polite"></p>
+        </div>
+        <div class="stats" id="stats" aria-live="polite">
+          <div class="stat">
+            <span class="stat__value" id="stat-current">0</span>
+            <span class="stat__label">day streak</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value" id="stat-longest">0</span>
+            <span class="stat__label">longest streak</span>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="card card--today" aria-labelledby="today-heading">
+          <h2 id="today-heading" class="card__title">Today</h2>
+          <div class="day-meta day-meta--today" id="today-meta"></div>
+          <div class="habit-grid" id="today-habits"></div>
+        </section>
+
+        <section class="history" aria-labelledby="history-heading">
+          <h2 id="history-heading" class="history__title">Past days</h2>
+          <div id="history-list" class="history-list"></div>
+          <button type="button" class="btn btn--secondary" id="btn-see-more" hidden>
+            See more
+          </button>
+        </section>
+      </main>
+
+      <p class="toast" id="toast" role="status" aria-live="polite" hidden></p>
+    </div>
+  </body>
+</html>
