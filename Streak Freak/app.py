@@ -1,4 +1,4 @@
-"""Daily habit tracker — Flask + SQLite."""
+"""Streak Freak — daily habit tracker (Flask + SQLite)."""
 
 from __future__ import annotations
 
@@ -418,6 +418,11 @@ init_db()
 
 if __name__ == "__main__":
     # macOS often binds AirPlay Receiver to port 5000 (empty 403 from AirTunes).
-    port = int(os.environ.get("HABITTRACKER_PORT", os.environ.get("PORT", "5001")))
-    print(f"Habit Tracker: http://127.0.0.1:{port}/", flush=True)
+    port = int(
+        os.environ.get(
+            "STREAK_FREAK_PORT",
+            os.environ.get("HABITTRACKER_PORT", os.environ.get("PORT", "5001")),
+        )
+    )
+    print(f"Streak Freak: http://127.0.0.1:{port}/", flush=True)
     app.run(host="127.0.0.1", port=port, debug=True)

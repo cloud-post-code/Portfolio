@@ -22,7 +22,7 @@ I treat this repo as a **personal dashboard of frontends**: spin up what I need,
 | [**DoctorMD**](DoctorMD/) | Convert documents (PDF, Word, HTML, etc.) to Markdown in the browser | Flask |
 | [**FrankNPost**](FrankNPost/) | Generate blog, LinkedIn, Facebook, and Instagram posts from themes and uploads | Streamlit, OpenAI |
 | [**Peel-Pal**](Peel-Pal/) | Brand-themed image generation studio with local gallery | Streamlit, Gemini |
-| [**HabitTracker**](HabitTracker/) | Daily habit check-ins, streaks, sleep logging | Flask, SQLite |
+| [**Streak Freak**](Streak%20Freak/) | Daily habit check-ins, streaks, sleep logging | Flask, SQLite |
 | [**Yap-to-Context**](Yap-to-Context/) | Voice/transcript ingest → organized folder tree and documents | Next.js, Postgres |
 
 Each runnable project has its own `README.md`, `requirements.txt` or `package.json`, and often a `.env.example`. Start there for setup details.

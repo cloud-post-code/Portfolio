@@ -1,5 +1,5 @@
 /**
- * Daily habit tracker — client UI.
+ * Streak Freak — client UI.
  * @typedef {{ id: number; name: string }} Habit
  * @typedef {{ hours_worked: number | null; wake_time: string | null; bed_time: string | null }} DayMeta
  * @typedef {{ date: string; meta: DayMeta; completions: Record<string, number>; complete: boolean }} DayRow
